@@ -1,0 +1,61 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Studio Screen Frame -->
+    <path
+        android:pathData="M30,30 h48 a6,6 0 0,1 6,6 v36 a6,6 0 0,1 -6,6 h-48 a6,6 0 0,1 -6,-6 v-36 a6,6 0 0,1 6,-6 z"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#6366F1" />
+                <item android:offset="1.0" android:color="#EC4899" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Recording Lens Outer Circle -->
+    <path
+        android:pathData="M54,54m-14,0a14,14 0 1,1 28,0a14,14 0 1,1 -28,0"
+        android:fillColor="#22FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Center Glowing Red Record Shutter Dot -->
+    <path
+        android:pathData="M54,54m-7,0a7,7 0 1,1 14,0a7,7 0 1,1 -14,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="47"
+                android:startY="47"
+                android:endX="61"
+                android:endY="61"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF4B4B" />
+                <item android:offset="1.0" android:color="#FF1744" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Soundwave accents on the right -->
+    <path
+        android:pathData="M76,46 v16 M80,49 v10"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#A5B4FC" />
+
+    <!-- Rec Dot Top Left inside screen -->
+    <path
+        android:pathData="M32,38 a2,2 0 1,1 0.01,0"
+        android:fillColor="#FF5252" />
+</vector>

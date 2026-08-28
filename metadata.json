@@ -1,0 +1,6 @@
+{
+  "name": "ScreenFlow Studio",
+  "description": "Premium customizable screen recording studio with live overlays, audio controls, facecam, touch visualization, and quick editing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
